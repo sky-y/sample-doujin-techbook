@@ -1,0 +1,17 @@
+/* 扉 */
+section#title-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  margin: 0;
+}
+
+/* 奥付 */
+section#colophon {
+  position: relative;
+  float-reference: page;
+  float: bottom;
+  margin-bottom: 0;
+}

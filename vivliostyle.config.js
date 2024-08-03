@@ -3,7 +3,10 @@ module.exports = {
   author: 'アンリイ・ファブル（大杉栄、伊藤野枝訳） <Your email>', 
   language: 'ja', 
   size: 'JIS-B5', 
-  theme: '@vivliostyle/theme-techbook@^1.0.1', 
+  theme: [
+    '@vivliostyle/theme-techbook@^1.0.1',
+    'themes/my-theme.css'
+  ],
   entryContext: './manuscripts',
   entry: [
     'index.md',
