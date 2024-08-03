@@ -8,4 +8,4 @@
 
 ## ライセンス
 
-Public Domain
+CC0-1.0

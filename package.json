@@ -10,6 +10,6 @@
   "dependencies": {
     "@vivliostyle/cli": "latest"
   },
-  "license": "UNLICENSED",
+  "license": "CC0-1.0",
   "private": true
 }
