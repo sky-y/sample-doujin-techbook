@@ -20,3 +20,12 @@ section#colophon {
 h1:has(+ nav#toc) {
   display: none;
 }
+
+/* hrで改ページ */
+hr.page-wrap {
+  break-before: page;
+  visibility: hidden;
+  margin: 0px;
+  padding: 0px;
+  height: 1px;
+}
