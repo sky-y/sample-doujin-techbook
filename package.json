@@ -1,0 +1,15 @@
+{
+  "name": "sample-doujin-techbook",
+  "description": "sample-doujin-techbook",
+  "version": "0.0.0",
+  "author": "アンリイ・ファブル（大杉栄、伊藤野枝訳） <Your email>",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
