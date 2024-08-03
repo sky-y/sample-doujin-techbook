@@ -1,6 +1,6 @@
 module.exports = {
   title: '科学の不思議', 
-  author: 'アンリイ・ファブル（大杉栄、伊藤野枝訳） <Your email>', 
+  author: 'アンリイ・ファブル（大杉栄、伊藤野枝訳）', 
   language: 'ja', 
   size: 'JIS-B5', 
   theme: [
@@ -10,6 +10,7 @@ module.exports = {
   entryContext: './manuscripts',
   entry: [
     'index.md',
+    { rel: 'contents' },
     '01.md',
     '02.md',
     '03.md',
@@ -29,8 +30,11 @@ module.exports = {
   //     format: 'webpub',
   //   },
   // ],
-  // workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
-  // toc: true, // whether generate and include ToC HTML or not, default to 'false'.
+  workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
+  toc: {
+    htmlPath: 'toc.html',
+    title: '目次',
+  },
   // cover: './cover.png', // cover image. default to undefined.
   // vfm: { // options of VFM processor
   //   hardLineBreaks: true, // converts line breaks of VFM to <br> tags. default to 'false'.

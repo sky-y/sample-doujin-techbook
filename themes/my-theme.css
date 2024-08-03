@@ -15,3 +15,8 @@ section#colophon {
   float: bottom;
   margin-bottom: 0;
 }
+
+/* 目次の直前に自動生成されるh1見出しを非表示にする */
+h1:has(+ nav#toc) {
+  display: none;
+}
