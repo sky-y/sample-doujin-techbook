@@ -1,14 +1,11 @@
-# Sample Doujin Techbook
+# サンプル：Vivliostyle (Create Book) を用いた技術同人誌
 
-description
+## 底本
 
-> created by [create-book](https://github.com/vivliostyle/create-book).
+底本は青空文庫から転載・改変しました。
 
-## References
+[ファーブル ジャン・アンリ『科学の不思議』（大杉 栄、伊藤 野枝 訳）](https://www.aozora.gr.jp/cards/001049/card4920.html)
 
-- VFM <https://vivliostyle.github.io/vfm/#/vfm>
-- Vivliostyle CLI <https://github.com/vivliostyle/vivliostyle-cli#readme>
-- Vivliostyle Themes <https://github.com/vivliostyle/themes#readme>
-- Awesome Vivliostyle <https://github.com/vivliostyle/awesome-vivliostyle#readme>
-- Vivliostyle (GitHub) <https://github.com/vivliostyle>
-- Vivliostyle <https://vivliostyle.org>
+## ライセンス
+
+Public Domain
