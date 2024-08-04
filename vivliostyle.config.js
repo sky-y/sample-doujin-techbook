@@ -1,5 +1,5 @@
 module.exports = {
-  title: '科学の不思議', 
+  title: 'sample-book-kagakunofushigi', 
   author: 'アンリイ・ファブル（大杉栄、伊藤野枝訳）', 
   language: 'ja', 
   size: 'JIS-B5', 
